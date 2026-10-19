@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listofactions SYSTEM "customActions.dtd">
+<listofactions>
+
+    <objecttype name="nav" resourceBundle="test.NavMenuRB">
+        <!--第一个action的name要对应上actionModel.xml的name 通过这个来对应被注册的firstTest-->
+        <action name="firstTest">
+            <!--windowType 代表展示这个目录时是窗口的形式还是弹出的形式(popup代表弹出 但是点击根目录不需要弹出数据)  url是点击后展示某一位置的jsp页面 可以选择class就是默认执行的java代码  -->
+            <command windowType="popup" url="netmarkets/jsp/snippetFeature/exportExcel/ExportBOMReport.jsp" />
+        </action>
+
+        <action name="list1">
+            <command windowType="popup"
+                     url="netmarkets/jsp/snippetFeature/exportExcel/ExportBOMReport.jsp" />
+        </action>
+
+        <action name="list2">
+            <command windowType="popup"
+                     url="netmarkets/jsp/snippetFeature/exportExcel/ExportBOMReport.jsp" />
+        </action>
+
+    </objecttype>
+</listofactions>
+

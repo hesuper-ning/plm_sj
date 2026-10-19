@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE actionmodels SYSTEM "customActionmodels.dtd">
+<actionmodels>
+	
+
+    <model name="main navigation" incremental="true">
+        <action name="firstTest" type="nav"/>
+    </model>
+
+    <model name="firstTest navigation" defaultActionName="list1">
+        <action name="list1" type="nav"/>
+        <action name="list2" type="nav"/>
+    </model>
+    
+
+
+</actionmodels>
